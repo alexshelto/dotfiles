@@ -3,31 +3,31 @@ local options = {
   showtabline = 2,
 
   -- Display
+  guicursor="",
   wrap = false,   -- Displays lines as one long line 
   signcolumn = 'yes', -- Shows the sign column
   colorcolumn = '80',
   scrolloff = 8, -- always show 8 rows from edge of screen 
   splitright = true,                       -- force all vertical splits to go to the right of current window
   completeopt = { "menu", "menuone", "noselect" },
-  -- completeopt = { "menuone", "noselect" }, -- mostly just for cmp
 
   -- Sidebar
   number = true,
   numberwidth = 3,
-  signcolumn = 'yes',
   showcmd = true,
 
   -- Search
   incsearch = true,
   ignorecase = true, -- ignore cas when searching 
   smartcase = true,  -- case insensitive unless capitals used in search 
+  hlsearch = false,
 
   -- White Chars
   smartindent = true,
   expandtab = true,
-  shiftwidth = 2,
-  softtabstop = 2,
-  tabstop = 2,
+  shiftwidth = 4,
+  softtabstop = 4,
+  tabstop = 4,
 
   undofile = true, -- enable persistant undo 
   updatetime = 300, -- faster completion 

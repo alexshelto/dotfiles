@@ -47,7 +47,9 @@ return packer.startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'nvim-lua/popup.nvim'  -- Popup API 
 
+
   -- Color scheme 
+  use 'folke/tokyonight.nvim'
   use 'morhetz/gruvbox'
 
   -- Telescope stuff 

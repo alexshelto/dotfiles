@@ -13,8 +13,6 @@ function imap(shortcut, command)
 end
 
 
-
-
 vim.g.mapleader = " "
 
 -- Navigate split panes
@@ -30,7 +28,6 @@ imap('<c-s>', '<ESC>:w<CR>a')
 
 -- Ctrl-c to exit insert mode 
 imap('<c-c>', '<ESC>')
-
 
 nmap('<leader>w', ":lua require('telescope.builtin').find_files()<CR>")
 nmap('<leader>f',":lua require('telescope.builtin').grep_string({ search = vim.fn.input('Grep for > ') })<CR>")
