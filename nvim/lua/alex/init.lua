@@ -1,0 +1,5 @@
+require("alex.set")
+require("alex.plugins")
+require("alex.lsp")
+require("alex.cmp-config")
+require("alex.tree-sitter")

@@ -1,6 +1,1 @@
-require('user.settings')
-require('user.mappings')
-require('user.plugins')
-require('user.colorscheme')
-require('user.cmp-config')
-require('user.lsp')
+require('alex')

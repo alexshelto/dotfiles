@@ -57,7 +57,7 @@ return packer.startup(function(use)
   use 'nvim-telescope/telescope-fzy-native.nvim'
 
   -- Auto closing brackets 
-  use 'jiangmiao/auto-pairs'
+  -- use 'jiangmiao/auto-pairs'
 
   -- Completion 
   use 'hrsh7th/nvim-cmp'
@@ -74,6 +74,23 @@ return packer.startup(function(use)
   -- LSP 
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+
+
+  -- Golang 
+  use 'ray-x/go.nvim'
+  use 'ray-x/guihua.lua' -- recommanded if need floating window support
+
+
+  use("nvim-treesitter/nvim-treesitter", {
+      run = ":TSUpdate"
+  })
+
+  use "nvim-treesitter/playground"
+  use "romgrk/nvim-treesitter-context"
+
+  use("ThePrimeagen/harpoon")
+
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   if PACKER_BOOTSTRAP then
