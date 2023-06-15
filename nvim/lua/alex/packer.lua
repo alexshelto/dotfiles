@@ -19,7 +19,9 @@ return require('packer').startup(function(use)
     use("nvim-treesitter/playground")
     use("simrat39/rust-tools.nvim")
     use('simrat39/inlay-hints.nvim')
+
     use('nvim-tree/nvim-web-devicons')
+    use('nvim-lualine/lualine.nvim')
 
     use("theprimeagen/harpoon")
 
